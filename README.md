@@ -19,3 +19,7 @@ To run all the test you need to do: `npm run test`
 ### Why use Next?
 
 - I used Next in order to get server rendering and get a closer real experience of a blog
+
+## Live demo 
+
+[Test the app live here!](https://react-blog-app-test.vercel.app/)
