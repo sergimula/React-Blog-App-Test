@@ -1,0 +1,2 @@
+export const DATA_LOADED = 'DATA_LOADED'
+export const CATEGORY_CHANGED = 'CATEGORY_CHANGED'

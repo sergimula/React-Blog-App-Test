@@ -1,0 +1,474 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `[Function]`;
+
+exports[`BlogPostList should match BlogPostList 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
+>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <img
+            alt="React and Next are awesome"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            height="140"
+            src="https://picsum.photos/id/0/200/200"
+            title="React and Next are awesome"
+          />
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              React and Next are awesome
+            </h2>
+            <p
+              className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Est ne harum postulant, mei denique assueverit ei. An malorum eripuit vim, mei te voluptua ponderum. Eu sed eirmod antiopam argumentum. An natum assum dolorem sea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <img
+            alt="Vintage motorcycles are awesome"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            height="140"
+            src="https://picsum.photos/id/278/200/200"
+            title="Vintage motorcycles are awesome"
+          />
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              Vintage motorcycles are awesome
+            </h2>
+            <p
+              className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Est ne harum postulant, mei denique assueverit ei. An malorum eripuit vim, mei te voluptua ponderum. Eu sed eirmod antiopam argumentum. An natum assum dolorem sea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <img
+            alt="Love Munchking, very funny card game"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            height="140"
+            src="https://picsum.photos/id/307/200/200"
+            title="Love Munchking, very funny card game"
+          />
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              Love Munchking, very funny card game
+            </h2>
+            <p
+              className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Est ne harum postulant, mei denique assueverit ei. An malorum eripuit vim, mei te voluptua ponderum. Eu sed eirmod antiopam argumentum. An natum assum dolorem sea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <img
+            alt="Covid-19 hits again"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            height="140"
+            src="https://picsum.photos/id/338/200/200"
+            title="Covid-19 hits again"
+          />
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              Covid-19 hits again
+            </h2>
+            <p
+              className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Est ne harum postulant, mei denique assueverit ei. An malorum eripuit vim, mei te voluptua ponderum. Eu sed eirmod antiopam argumentum. An natum assum dolorem sea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <img
+            alt="React and Next are awesome"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            height="140"
+            src="https://picsum.photos/id/0/200/200"
+            title="React and Next are awesome"
+          />
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              React and Next are awesome
+            </h2>
+            <p
+              className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Est ne harum postulant, mei denique assueverit ei. An malorum eripuit vim, mei te voluptua ponderum. Eu sed eirmod antiopam argumentum. An natum assum dolorem sea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <img
+            alt="Vintage motorcycles are awesome"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            height="140"
+            src="https://picsum.photos/id/278/200/200"
+            title="Vintage motorcycles are awesome"
+          />
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              Vintage motorcycles are awesome
+            </h2>
+            <p
+              className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Est ne harum postulant, mei denique assueverit ei. An malorum eripuit vim, mei te voluptua ponderum. Eu sed eirmod antiopam argumentum. An natum assum dolorem sea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <img
+            alt="Love Munchking, very funny card game"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            height="140"
+            src="https://picsum.photos/id/307/200/200"
+            title="Love Munchking, very funny card game"
+          />
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              Love Munchking, very funny card game
+            </h2>
+            <p
+              className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Est ne harum postulant, mei denique assueverit ei. An malorum eripuit vim, mei te voluptua ponderum. Eu sed eirmod antiopam argumentum. An natum assum dolorem sea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <img
+            alt="Covid-19 hits again"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            height="140"
+            src="https://picsum.photos/id/338/200/200"
+            title="Covid-19 hits again"
+          />
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              Covid-19 hits again
+            </h2>
+            <p
+              className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+            >
+              Est ne harum postulant, mei denique assueverit ei. An malorum eripuit vim, mei te voluptua ponderum. Eu sed eirmod antiopam argumentum. An natum assum dolorem sea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+</div>
+`;
