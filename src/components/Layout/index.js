@@ -1,7 +1,7 @@
+import React, { useContext, useReducer } from 'react'
 import _ from 'lodash'
 import { get } from 'lodash/object'
 import { Container, makeStyles } from '@material-ui/core'
-import { useContext, useReducer } from 'react'
 
 import { Context, DispatchContext } from '../../store.js'
 import { CATEGORY_CHANGED } from '../../constants/actionTypes'
@@ -23,15 +23,13 @@ const Layout = (props) => {
         changeCategoryByID={(categoryID) => {
           dispatch({
             type: CATEGORY_CHANGED,
-            activeCategoryID: categoryID
+            activeCategoryID: categoryID,
           })
         }}
         headerBackgroundColor={get(context, 'layout.header.background.colour')}
         burgerMenuIconColor={get(context, 'layout.header.burger_menu.color')}
       />
-      <Container className={classes.root}>
-        {props.children}
-      </Container>
+      <Container className={classes.root}>{props.children}</Container>
     </>
   )
 }

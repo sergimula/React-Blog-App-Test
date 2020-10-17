@@ -6,7 +6,7 @@ import {
   CardMedia,
   Grid,
   makeStyles,
-  Typography
+  Typography,
 } from '@material-ui/core'
 import PropTypes from 'prop-types'
 
@@ -49,7 +49,7 @@ const BlogPostCard = (props) => {
 BlogPostCard.propTypes = {
   description: PropTypes.string,
   imageUrl: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 }
 
 export default BlogPostCard

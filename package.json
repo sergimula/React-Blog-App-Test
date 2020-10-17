@@ -21,7 +21,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@svgr/webpack": "^5.4.0",
     "lodash": "^4.17.15",
@@ -34,10 +34,11 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
     "@babel/preset-env": "^7.7.6",
-    "@material-ui/core": "^4.11.0",
     "babel-plugin-lodash": "^3.3.4",
     "jest": "^26.5.3",
+    "prettier": "2.1.2",
     "react-test-renderer": "^16.14.0"
   }
 }

@@ -5,7 +5,7 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
-  makeStyles
+  makeStyles,
 } from '@material-ui/core'
 import PropTypes from 'prop-types'
 
@@ -17,10 +17,7 @@ const CategoriesList = (props) => {
   const classes = useStyles()
 
   return (
-    <div
-      className={classes.list}
-      role='presentation'
-    >
+    <div className={classes.list} role='presentation'>
       <List>
         {props.categories.map((category) => (
           <React.Fragment>
@@ -42,7 +39,7 @@ const CategoriesList = (props) => {
 CategoriesList.propTypes = {
   categories: PropTypes.array,
   changeCategoryByID: PropTypes.func,
-  toggleDrawer: PropTypes.func
+  toggleDrawer: PropTypes.func,
 }
 
 export default CategoriesList

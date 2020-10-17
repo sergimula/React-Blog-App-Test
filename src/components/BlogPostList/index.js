@@ -5,13 +5,8 @@ import PropTypes from 'prop-types'
 import BlogPostCard from './BlogPostCard'
 
 const BlogPostList = (props) => (
-  <Grid
-    alignContent='center'
-    container
-    direction='column'
-    justify='center'
-  >
-    {props.posts.map(post => (
+  <Grid alignContent='center' container direction='column' justify='center'>
+    {props.posts.map((post) => (
       <BlogPostCard
         description={post.description}
         imageUrl={post.image}

@@ -10,7 +10,7 @@ import {
   Tabs,
   Tab,
   Typography,
-  useTheme
+  useTheme,
 } from '@material-ui/core'
 
 import { Context } from '../../../store.js'
@@ -32,10 +32,14 @@ const CategoriesTabs = (props) => {
 
   if (!props.categories || props.categories.length <= 1) return null
 
-  const checkScrollPosition = debounce(() => {
-    setAreTabsHide(window.pageYOffset > TABS_HIDE_AT)
-    setIsAppBarHide(window.pageYOffset > APPBAR_HIDE_AT)
-  }, DEBOUNCE_TIME, { 'leading': true, 'maxWait': DEBOUNCE_MAX_WAIT })
+  const checkScrollPosition = debounce(
+    () => {
+      setAreTabsHide(window.pageYOffset > TABS_HIDE_AT)
+      setIsAppBarHide(window.pageYOffset > APPBAR_HIDE_AT)
+    },
+    DEBOUNCE_TIME,
+    { leading: true, maxWait: DEBOUNCE_MAX_WAIT }
+  )
 
   const onScroll = () => {
     checkScrollPosition()
@@ -49,25 +53,26 @@ const CategoriesTabs = (props) => {
 
   return (
     <div className={classes.root}>
-      {isAppBarHide
-        ? <CategoriesDrawer
+      {isAppBarHide ? (
+        <CategoriesDrawer
           burgerMenuIconColor={props.burgerMenuIconColor}
           categories={props.categories}
           changeCategoryByID={props.changeCategoryByID}
-          />
-        : <AppBar
+        />
+      ) : (
+        <AppBar
           color='default'
           position='fixed'
           style={{
-            backgroundColor: props.headerBackgroundColor
+            backgroundColor: props.headerBackgroundColor,
           }}
-          >
+        >
           <CategoriesDrawer
             burgerMenuIconColor={props.burgerMenuIconColor}
             categories={props.categories}
             changeCategoryByID={props.changeCategoryByID}
           />
-          {!areTabsHide &&
+          {!areTabsHide && (
             <Grid container justify='center'>
               <Tabs
                 className={classes.tabs}
@@ -84,9 +89,9 @@ const CategoriesTabs = (props) => {
                 ))}
               </Tabs>
             </Grid>
-          }
+          )}
         </AppBar>
-      }
+      )}
     </div>
   )
 }
@@ -96,7 +101,7 @@ CategoriesTabs.propTypes = {
   burgerMenuIconColor: PropTypes.string,
   categories: PropTypes.array,
   changeCategoryByID: PropTypes.func,
-  headerBackgroundColor: PropTypes.string
+  headerBackgroundColor: PropTypes.string,
 }
 
 export default CategoriesTabs

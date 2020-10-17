@@ -1,7 +1,7 @@
+import React, { useContext, useEffect } from 'react'
 import _ from 'lodash'
 import { get } from 'lodash/object'
 import { isEmpty } from 'lodash/lang'
-import React, { useContext, useEffect } from 'react'
 import Link from 'next/link'
 import { useTheme } from '@material-ui/core'
 import SwipeableViews from 'react-swipeable-views'
@@ -12,7 +12,7 @@ import { Context, DispatchContext } from '../store.js'
 import Layout from '../components/Layout'
 import BlogPostList from '../components/BlogPostList'
 
-const Index = props =>  {
+const Index = (props) => {
   const theme = useTheme()
   const context = useContext(Context)
   const dispatch = useContext(DispatchContext)
@@ -31,17 +31,14 @@ const Index = props =>  {
           if (type === 'end') {
             dispatch({
               type: CATEGORY_CHANGED,
-              activeCategoryID: index
+              activeCategoryID: index,
             })
           }
         }}
         enableMouseEvents
         hysteresis='0'
       >
-        <BlogPostList
-          index={0}
-          posts={props.posts}
-        />
+        <BlogPostList index={0} posts={props.posts} />
         {props.categories.map((category) => (
           <BlogPostList
             index={category.id}
@@ -58,7 +55,9 @@ const Index = props =>  {
 
 Index.getInitialProps = async () => {
   try {
-    const res = await fetch('https://my-json-server.typicode.com/sergimula/example-blog-api-db/db')
+    const res = await fetch(
+      'https://my-json-server.typicode.com/sergimula/example-blog-api-db/db'
+    )
     const data = await res.json()
 
     //Fallback in case the api stop working
@@ -66,14 +65,14 @@ Index.getInitialProps = async () => {
       return {
         categories: mockData.categories,
         layout: mockData.layout,
-        posts: mockData.posts
+        posts: mockData.posts,
       }
     }
 
     return {
       categories: data.categories,
       layout: data.layout,
-      posts: data.posts
+      posts: data.posts,
     }
   } catch (error) {
     console.log(error)

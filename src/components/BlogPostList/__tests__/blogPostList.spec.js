@@ -7,9 +7,7 @@ import * as stubs from './stubs'
 
 describe('BlogPostList', () => {
   it('should match BlogPostList', () => {
-    const wrapper = renderer.create(
-      <BlogPostList posts={stubs.posts}/>
-    )
+    const wrapper = renderer.create(<BlogPostList posts={stubs.posts} />)
 
     expect(wrapper).toMatchSnapshot()
   })

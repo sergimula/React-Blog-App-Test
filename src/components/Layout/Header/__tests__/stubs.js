@@ -7,10 +7,10 @@ export const headerProps = {
   burgerMenuIconColor: '',
   categories,
   changeCategoryByID: jest.fn(),
-  headerBackgroundColor: ''
+  headerBackgroundColor: '',
 }
 
 export const headerPropsCategoriesEmpty = {
   ...headerProps,
-  categories: []
+  categories: [],
 }

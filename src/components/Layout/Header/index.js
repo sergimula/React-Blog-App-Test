@@ -10,10 +10,7 @@ const Header = (props) => {
       activeTabId={props.activeCategoryID}
       burgerMenuIconColor={props.burgerMenuIconColor}
       changeCategoryByID={props.changeCategoryByID}
-      categories={[
-        {'id': 0, 'name': 'Home'},
-        ...props.categories
-      ]}
+      categories={[{ id: 0, name: 'Home' }, ...props.categories]}
       headerBackgroundColor={props.headerBackgroundColor}
     />
   )
@@ -24,8 +21,7 @@ Header.propTypes = {
   burgerMenuIconColor: PropTypes.string,
   categories: PropTypes.array,
   changeCategoryByID: PropTypes.func,
-  headerBackgroundColor: PropTypes.string
+  headerBackgroundColor: PropTypes.string,
 }
-
 
 export default Header

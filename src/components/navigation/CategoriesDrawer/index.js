@@ -1,10 +1,5 @@
 import React, { useState } from 'react'
-import {
-  Drawer,
-  Grid,
-  IconButton,
-  makeStyles
-} from '@material-ui/core'
+import { Drawer, Grid, IconButton, makeStyles } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 import PropTypes from 'prop-types'
 
@@ -19,10 +14,13 @@ const CategoriesDrawer = (props) => {
   const classes = useStyles()
 
   const toggleDrawer = (isDrawerOpen) => (event) => {
-    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+    if (
+      event.type === 'keydown' &&
+      (event.key === 'Tab' || event.key === 'Shift')
+    ) {
       return
     }
-
+    
     setIsDrawerOpen(isDrawerOpen)
   }
 
@@ -36,7 +34,7 @@ const CategoriesDrawer = (props) => {
       >
         <Grid className={classes.drawerMenuIcon} item>
           <IconButton onClick={toggleDrawer(true)}>
-            <MenuIcon style={{ color: props.burgerMenuIconColor }}/>
+            <MenuIcon style={{ color: props.burgerMenuIconColor }} />
           </IconButton>
         </Grid>
         <Grid item>
@@ -57,7 +55,7 @@ const CategoriesDrawer = (props) => {
 CategoriesDrawer.propTypes = {
   burgerMenuIconColor: PropTypes.string,
   categories: PropTypes.array,
-  changeCategoryByID: PropTypes.func
+  changeCategoryByID: PropTypes.func,
 }
 
 export default CategoriesDrawer
