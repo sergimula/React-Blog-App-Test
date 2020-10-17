@@ -1,5 +1,5 @@
 import React from 'react'
-import CategoriesTabs from '../../navigation/CategoriesTabs'
+import CategoriesTabs from './CategoriesTabs'
 import PropTypes from 'prop-types'
 
 const Header = (props) => {

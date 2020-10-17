@@ -2,18 +2,16 @@ import React, { useContext } from 'react'
 import _ from 'lodash'
 import { get } from 'lodash/object'
 
-import LogoImage from '../../../assets/logo.svg'
-import { Context } from '../../../store.js'
+import { Context } from 'src/store.js'
 
 const Logo = (props) => {
   const context = useContext(Context)
 
   return (
-    <LogoImage
-      style={{
-        height: get(context, 'layout.header.logo.size.height'),
-        width: get(context, 'layout.header.logo.size.width'),
-      }}
+    <img
+      src='/assets/logo.svg'
+      width={get(context, 'layout.header.logo.size.width')}
+      height={get(context, 'layout.header.logo.size.height')}
     />
   )
 }

@@ -13,7 +13,7 @@ import {
   useTheme,
 } from '@material-ui/core'
 
-import { Context } from '../../../store.js'
+import { Context } from 'src/store.js'
 import CategoriesDrawer from '../CategoriesDrawer'
 import styles from './styles'
 

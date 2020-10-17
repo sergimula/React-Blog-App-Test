@@ -3,7 +3,7 @@ import { Drawer, Grid, IconButton, makeStyles } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 import PropTypes from 'prop-types'
 
-import Logo from '../../Layout/Logo'
+import Logo from 'src/components/Layout/Logo'
 import CategoriesList from './CategoriesList'
 import styles from './styles'
 
@@ -20,7 +20,7 @@ const CategoriesDrawer = (props) => {
     ) {
       return
     }
-    
+
     setIsDrawerOpen(isDrawerOpen)
   }
 
